@@ -77,7 +77,7 @@ BOOL APIENTRY DllMain(HINSTANCE instance, DWORD reason, LPVOID reserved) {
 // 165  VK_RMENU.
 
 /**
- * FIXME: Definición de {@code runVirtualKeyEvent}.
+ * FIXME: Description of {@code runVirtualKeyEvent}.
  * Simula la pulsación de una tecla.
  */
 LANGUAGE DLLIMPORT CALLING void runVirtualKeyEvent(int eventCode) {
@@ -110,7 +110,7 @@ LANGUAGE DLLIMPORT CALLING void runVirtualKeyEvent(int eventCode) {
 #define VK_LBUTTON_DOUBLE 0x07
 
 /**
- * FIXME: Definición de {@code runVirtualMouseClicEvent}.
+ * FIXME: Description of {@code runVirtualMouseClicEvent}.
  * Simula un evento de clic.
  */
 LANGUAGE DLLIMPORT CALLING void runVirtualMouseClicEvent(int eventCode) {
@@ -164,7 +164,7 @@ LANGUAGE DLLIMPORT CALLING void runVirtualMouseClicEvent(int eventCode) {
 #define VK_MOUSE_MOVE_EVENT_DOWN 40
 
 /**
- * FIXME: Definición de {@code runVirtualMouseMoveEvent}.
+ * FIXME: Description of {@code runVirtualMouseMoveEvent}.
  * Simula un evento de movimiento de mouse.
  */
 LANGUAGE DLLIMPORT CALLING void runVirtualMouseMoveEvent(int eventCode, int pixelQuantity) {
